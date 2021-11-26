@@ -3,10 +3,9 @@
 # tested on ROS 6.46.5
 # updated 2020/05/06
 
-:global subdomainHashes;
-:global domainsDNS;
-:global interfacesWAN;
-
+:global subdomainHashes {"U3dWVE5V01TWxPcjluEo0bEtJQWjg5DUz=";"U3pWV5VFTWxPcjlOEo0EtJpOE1MAyDc="};
+:global domainsDNS {"aaa.xyz.pu";"bbb.xyz.pu"};
+:global interfacesWAN {"ether4-WAN-Inet";"ether3-WAN-Beeline"};
 :global quant [:len $domainsDNS];
 :global skipCounters;
 :if ([:typeof $skipCounters] != "array") do={
